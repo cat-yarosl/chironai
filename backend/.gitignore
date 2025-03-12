@@ -1,0 +1,59 @@
+# Byte-compiled / compiled Python files
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django secret keys & environment variables
+.env
+*.env
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Migrations (optional, but recommended to keep clean repos)
+*/migrations/* 
+!*/migrations/__init__.py  # Keep init file
+
+# Logs
+logs/
+*.log
+*.out
+
+# Cache files
+*.cache
+*.mo
+*.pot
+*.pyc
+
+# Static & media files (if generated dynamically)
+staticfiles/
+media/
+*.sass-cache
+*.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Deployment & Docker files (if using Docker)
+docker-compose.override.yml
+*.dockerignore
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Python environment metadata
+Pipfile
+Pipfile.lock
